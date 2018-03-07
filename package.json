@@ -1,0 +1,24 @@
+{
+    "name": "sensible-css",
+    "version": "1.0.0",
+    "author": "Jordan Mackie <jmackie@protonmail.com>",
+    "license": "MIT",
+    "description": "Sensible initial style rules",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/jmackie/sensible-css.git"
+    },
+    "main": "dist/sensible.css",
+    "scripts": {
+        "start": "npm run build",
+        "build": "postcss src/main.css -o dist/sensible.css",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "devDependencies": {
+        "cssnano": "^3.10.0",
+        "postcss-cli": "^5.0.0",
+        "postcss-cssnext": "^3.1.0",
+        "postcss-import": "^11.1.0",
+        "postcss-scss": "^1.0.4"
+    }
+}

@@ -1,0 +1,26 @@
+// Heydon Pickering's lobotomized owl.
+//body * + * {
+//    margin-top: 1.5em;
+//}
+
+// Responsive images by default.
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+// Code formatting.
+pre {
+    overflow-x: auto;
+
+    & > code {
+        white-space: pre;
+        background-color: transparent;
+    }
+}
+
+code {
+    white-space: pre-wrap;
+}
+

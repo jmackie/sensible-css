@@ -1,0 +1,35 @@
+html {
+    min-width: 300px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+
+    // NOTE: font-smoothing should probably be disabled
+    // with light text on dark backgrounds.
+    // https://maximilianhoffmann.com/posts/better-font-rendering-on-osx
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-size: 62.5%;  // 1.6rem = 16px
+
+    text-rendering: optimizeLegibility;
+    text-size-adjust: 100%;
+}
+
+body {
+    line-height: 1.618; // > 1.5 to meet W3C accessibility guidelines
+
+    // Some sensible default fonts.
+    font-family: 'Roboto', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif;
+}
+
+small {
+    //font-size: 80%; <- normalize.css
+    font-size: 0.875em;
+}
+
+code,
+pre {
+    -moz-osx-font-smoothing: auto;
+    -webkit-font-smoothing: auto;
+}
+
